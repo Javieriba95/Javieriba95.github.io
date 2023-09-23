@@ -1,0 +1,189 @@
+
+body {
+    background-color: #0093E9;
+background-image: linear-gradient(236deg, #0093E9 0%, #80D0C7 100%);
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.boton-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.clasebox {
+    background-color: aliceblue !important;
+    margin: 4px ;
+    border-color: black;
+    border: 10px ;
+    padding: 5px ;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+#derechos {
+    padding: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#btn_Contacme {
+    border-radius: 5px;
+    background-color: lightblue;
+    border:solid black;
+    margin: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.texto {
+    padding: 20px;
+    animation-duration: 2s;
+    animation-name: slidein;
+    }
+
+    @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+
+
+#nombre1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-shadow: 1px 4px 1px rgba(0, 0, 0, 0.1);
+    border-color:black;
+}
+
+.container {
+    width: 100vw;
+    max-width: 1360px;
+    max-height: 1920px;
+    min-width: 320px;
+    margin: auto;
+}
+
+#imgen-superior {
+    margin: 3px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+#foto1 {
+    width: 120px;
+    height: 120px;
+    border: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+.boxsuperior {
+    color: black;
+    background-color:white;
+    margin: 4px;
+    border-color: black;
+    border: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+.botones {
+    margin-right: 35px !important;
+    padding-right: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    background: linear-gradient(to right, #007bb5, #0093E9);
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+#nombre1 {
+    padding: 4px;
+}
+
+#red {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-style: oblique;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.fa {
+    padding: 10px;
+    font-size: 5px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(red 0, green 0, blue 0, alpha .5);
+    transition: all .4s ease-in-out;
+    text-decoration: none;
+}
+
+.fa:hover {
+    transform: scale(1.2);
+    text-decoration: none;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white; 
+}
+
+.fa-twitter {
+    background: #55ACEE;
+     color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.loginboton {
+    border-radius: 10px;
+    background-color: white;
+    border-color: #007bb5;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, .5);
+}
+
+.loginboton:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+    }
